@@ -23,7 +23,11 @@ pyicontract-lint
 pyicontract-lint lints contracts in Python code defined with
 `icontract library <https://github.com/Parquery/icontract>`_.
 
-The following checks are performed:
+The linter mainly compares contracts with method signatures, but does not analyze the behavior of the code.
+For the latter, see for example `icontract-hypothesis <https://github.com/mristin/icontract-hypothesis>`_ or
+`CrossHair <https://github.com/pschanely/CrossHair>`_.
+
+pyicontract-lint performs the following checks:
 
 +---------------------------------------------------------------------------------------+----------------------+
 | Description                                                                           | Identifier           |
